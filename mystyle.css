@@ -1,0 +1,144 @@
+@import url ( 'https://fonts.googleapis.com/css2? family = Noto + Sans + KR : wght @ 100; 300; 400; 500; 700; 900 & display = swap')
+    
+*{
+    padding:0;
+    margin:0;
+    border:0px;
+}
+body{
+    text-align:center;
+    font-family : 'Noto Sans KR', sans-serif;
+    background:url(bg01.png)no-repeat -260px 1000px #1A112D;
+    background-size: 40%;
+    margin:0
+}
+header{
+    display:inline-block;
+    width:1200px;
+    height:400px;
+    background:url(img01.png)center -30px no-repeat;
+    box-shadow:0 3px 10px;
+}
+header center{
+    display: block;
+    background: #fff;
+    width: 720px;
+    margin: 330px auto 0;
+    border-radius: 100px;
+    opacity:.8;
+    padding: 20px 50px
+}
+section{
+    width: 900px;
+    margin:0 auto;
+}
+
+
+h1{
+    font-size:40px;
+    font-weight:900;
+    color:#1a112d;
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-size:18px;
+    color:#444
+}
+
+section{
+    margin:80px auto;
+}
+section img{
+    box-shadow:0 0 30px;
+    border-radius:50%
+}
+h2{
+    text-align: right
+}
+
+p{
+    font-size:24px;
+    line-height: 32px;
+    margin:120px 0;
+    color:#fff
+}
+
+#article02{
+    display: block;
+    width: 770px;
+    height:65px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+#article02 ul{
+    float: left;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    margin:0 10px;
+    padding: 0;
+    animation-duration:12s;
+    animation-name:time;
+    animation-iteration-count: infinite;
+}
+#article02 li{
+    list-style:none;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+}
+@keyframes time{
+    15%{
+        top:-90px;
+    }
+    30%{
+        top:-165px;
+    }
+    45%{
+        top:-240px;
+    }
+    60%{
+        top:-165px;
+    }
+    75%{
+        top:-90px;
+    }
+    90%{
+        top:-15px;
+    }
+    
+}
+
+#article02 p{
+    margin: 5px auto;
+    font-size: 50px;
+    font-weight: 900;
+    display: inline-block;
+    float: left;
+    opacity: .2
+}
+#article02 p:last-child{
+    opacity: .2
+}
+
+span{
+    opacity:.3
+}
+
+footer{
+    color: #fff;
+    opacity:.6;
+    background:url(bg02.png);
+    height: 1600px
+}
+
+h3{
+    margin: 0 auto;
+    padding: 250px 0 50px;
+    font-weight:100;
+    font-size: 60px;
+}
+
+
